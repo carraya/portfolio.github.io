@@ -100,6 +100,7 @@
   display: flex;
   min-height: 4vw;
   margin-left: 0px;
+  margin-top: 10%;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -378,6 +379,58 @@
   }
 
   .experienceheader {
+    font-size: 10vw;
+  }
+
+  .link {
+    font-size: 4vw;
+  }
+
+  .link-2 {
+    font-size: 4vw;
+  }
+
+  .link-3 {
+    font-size: 4vw;
+  }
+
+  .link-4 {
+    font-size: 4vw;
+  }
+
+  .goodbyeheader {
+    font-size: 10vw;
+  }
+
+  .goodbyediv {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .aboutmeheader {
+    font-size: 10vw;
+    margin-top: 10%;
+  }
+
+  .aboutme {
+    width: 70%;
+    font-size: 3.5vw;
+  }
+
+  .aboutme.experience {
+    font-size: 4vw;
+    line-height: 20px;
+    margin-top: 10px;
+  }
+
+  .experienceheader {
+    margin-top: 30px;
     font-size: 10vw;
   }
 
